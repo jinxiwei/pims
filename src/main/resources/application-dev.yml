@@ -1,0 +1,17 @@
+#开发与测试环境配置
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.0.4:3306/hfpims_test
+    username: root
+    password: mysql55++
+    driver-class-name: com.mysql.jdbc.Driver
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+
+server:
+   port: 8081
+   context-path: /pims
+   display-name: ${myconfig.projectName}
+   error:
+     path: /error

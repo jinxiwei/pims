@@ -1,0 +1,10 @@
+#设置自定义属性，用于别的地方的占位符
+myconfig:
+  projectName: 芜湖重点项目库
+
+spring:
+  profiles:
+    #引用开发环境配置文件
+    active: dev
+    #引用生产（外网）环境配置文件
+    #active: prod
